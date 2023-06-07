@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Grid } from 'yaa-grid';
 import { arabicProducts } from './data';
 
-import { useLocation } from 'react-router-dom';
 import 'yaa-grid/dist/style.css';
 
 const columns = [
@@ -35,7 +34,7 @@ export const Home: React.FC = () => {
     }>();
     const [loading, setLoading] = React.useState(false);
     const [pageNumber, setPageNumber] = React.useState(1);
-    const [pageNumber2, setPageNumber2] = React.useState(1);
+    // const [pageNumber2, setPageNumber2] = React.useState(1);
 
     React.useEffect(() => {
         const fetchData = async () => {

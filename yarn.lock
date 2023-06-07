@@ -4296,10 +4296,10 @@ y18n@^5.0.5:
   resolved "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz"
   integrity sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==
 
-yaa-grid@^0.1.39:
-  version "0.1.39"
-  resolved "https://registry.yarnpkg.com/yaa-grid/-/yaa-grid-0.1.39.tgz#8ec8b9a8ebd4cf556abbded5985b6d5171ef8598"
-  integrity sha512-Ca4MjGHknPtNwHGY0L2+Y+kdElA59oiQLgGWcAmvPgsjiagGQxIBtBPh+S10H8kWkWDBKqY4fH2Yq0lFeLnXrQ==
+yaa-grid@^0.1.41:
+  version "0.1.41"
+  resolved "https://registry.yarnpkg.com/yaa-grid/-/yaa-grid-0.1.41.tgz#0ba2004071b5e7695281e693c0d3fccd47ecaa05"
+  integrity sha512-JSPfHZTm+9RNCXBkRWpc8+mxzqeGzCPG5dWNYy/AJI3+3jNsq19PzEsaNwNtQs4KkS5eSt3TiQaKBfnReHvTpA==
   dependencies:
     "@vitejs/plugin-react" "^3.0.1"
     autoprefixer "^10.4.13"

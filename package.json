@@ -1,5 +1,6 @@
 {
     "name": "@relateit/react-vite-starter",
+    "license": "MIT",
     "private": false,
     "version": "0.0.5",
     "type": "module",
@@ -31,7 +32,7 @@
         "react-dom": "^18.2.0",
         "react-i18next": "^12.3.1",
         "react-router-dom": "^6.11.2",
-        "yaa-grid": "^0.1.39"
+        "yaa-grid": "^0.1.41"
     },
     "devDependencies": {
         "@graphql-codegen/cli": "^4.0.0",
