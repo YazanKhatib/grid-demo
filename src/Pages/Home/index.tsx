@@ -55,7 +55,7 @@ export const Home: React.FC = () => {
     const onDelete = (e: any) => alert(`delete ${e}`);
 
     return (
-        <div className="m-auto mt-12">
+        <div className="m-auto w-4/5 pt-12">
             <button
                 style={{
                     backgroundColor: '#406882',

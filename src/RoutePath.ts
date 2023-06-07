@@ -1,7 +1,6 @@
 enum RoutePaths {
-    Home = '/home',
+    Home = '/',
     Login = '/login',
-    About = '/about',
 }
 
 export default RoutePaths;
