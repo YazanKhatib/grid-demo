@@ -26,6 +26,7 @@ const arabicColumns = [
 
 export const Home: React.FC = () => {
     const [rtl, setRtl] = React.useState(false);
+    const [striped, setStriped] = React.useState(false);
     const [data, setData] = React.useState<{
         products: [];
         total: number;
@@ -58,6 +59,19 @@ export const Home: React.FC = () => {
         <div className="m-auto w-4/5 pt-12">
             <button
                 style={{
+                    width: '180px',
+                    backgroundColor: '#406882',
+                    color: 'white',
+                    padding: '4px 32px',
+                    borderRadius: '4px',
+                    margin: '12px',
+                }}
+                onClick={() => setStriped(!striped)}
+            >
+                {striped ? 'Default view' : 'Striped view'}
+            </button>
+            <button
+                style={{
                     backgroundColor: '#406882',
                     color: 'white',
                     padding: '4px 32px',
@@ -74,6 +88,7 @@ export const Home: React.FC = () => {
                 <Grid
                     // height="700"
                     // color="black"
+                    variant={striped ? 'stripe' : ''}
                     rtl={rtl}
                     data={rtl ? arabicProducts : data?.products}
                     onView={onView}
